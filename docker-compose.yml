@@ -1,6 +1,6 @@
 services:
-  postgre:
-    image: postgres:14-alpine
+  postgres:
+    image: postgres:14-alpine3.21
     ports:
       - "5432:5432"
     volumes:
